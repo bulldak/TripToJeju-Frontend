@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"sunflowerL";
+    src: url(./Sunflower-Light.ttf);
+}
+@font-face {
+    font-family: "sunflowerM";
+    src: url(./Sunflower-Medium.ttf);
+}
+@font-face {
+    font-family: "sunflowerB";
+    src: url(./Sunflower-Bold.ttf);
+}

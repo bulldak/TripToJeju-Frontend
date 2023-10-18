@@ -1,0 +1,19 @@
+body {
+  margin: 0px auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f6f6f6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.App {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  width: 80vw;
+}

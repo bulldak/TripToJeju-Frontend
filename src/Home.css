@@ -1,0 +1,54 @@
+.Home {
+  text-align: center;
+  height: 40rem;
+  /* width: 50rem; */
+  background-color: rgba(255, 255, 255, 0.65);
+  background-blend-mode: overlay;
+  background-image: url("./assests/background1.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  padding-top: 6rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.1rem;
+  font-family: "sunflowerL";
+  font-weight: bold;
+}
+#how {
+  margin-top: 2.8rem;
+  font-family: "sunflowerM";
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+#emp {
+  /* color: rgb(162, 182, 201); */
+  font-family: "sunflowerM";
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+#start {
+  margin-top: 7.2rem;
+  height: 5rem;
+  width: 13rem;
+
+  font-size: 1.8rem;
+  font-family: "sunflowerM";
+  letter-spacing: 0.2rem;
+  text-decoration: underline;
+  white-space: nowrap;
+  text-underline-offset: 0.6rem;
+
+  border: none;
+  background: none;
+}
+/* 마우스 올려졌을 때 */
+#start:hover {
+  cursor: pointer;
+  /* background-color: #89a1c5a0; */
+  color: rgb(122, 122, 122);
+}

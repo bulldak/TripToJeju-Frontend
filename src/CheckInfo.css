@@ -1,0 +1,160 @@
+.CheckInfo {
+  /* width: 50rem; */
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+button {
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+
+  width: 6rem;
+  height: 5rem;
+
+  border-radius: 0.5rem;
+  border: 0.09rem solid rgb(216, 216, 216);
+
+  font-family: "sunflowerL";
+  font-size: 1.5rem;
+  white-space: nowrap;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  background-position: center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+}
+button.selected {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+button:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.514);
+}
+
+.about {
+  display: flex;
+  justify-content: center; /* 요소들을 양 끝으로 배치 */
+  align-items: center; /* 요소들의 수직 중앙 정렬 */
+
+  font-family: "sunflowerM";
+  font-size: 1.8rem;
+  white-space: nowrap;
+
+  border-bottom: 1.2px solid #e2e2e2;
+  box-sizing: border-box;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  width: 70vw;
+  height: 6.5rem;
+  margin: 0 auto;
+}
+#back {
+  margin: 0;
+  height: 2.5rem;
+  width: 3.5rem;
+  font-size: 1rem;
+  align-self: flex-start;
+}
+.about text {
+  text-align: center;
+  flex-grow: 1;
+  margin-right: 3rem;
+}
+
+.Q {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Q text {
+  font-family: "sunflowerM";
+  font-size: 1.4rem;
+  margin-top: 3rem;
+}
+
+#day {
+  height: auto;
+  width: auto;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+  margin-bottom: 0;
+}
+
+.CheckTime {
+  margin-top: 1.5rem;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.CheckTime text {
+  margin-right: 0.6rem;
+  margin-left: 0.7rem;
+  font-family: "sunflowerL";
+  font-size: 1.2rem;
+}
+.CheckTime select {
+  width: 8rem;
+  height: 2rem;
+  margin-right: 0.7rem;
+  font-family: "sunflowerL";
+  font-size: 1.1rem;
+  border: 0.09rem solid black;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+.price select {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  padding: 0.2rem;
+  font-family: "sunflowerL";
+  font-size: 1.1rem;
+  border: 0.09rem solid black;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+.theme button {
+  background-size: 80%;
+}
+.theme button.selected {
+  background-image: url("./assests/dolhareubang.png");
+}
+.button-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location button {
+  background-size: 49%;
+}
+.location button:nth-child(1).selected {
+  background-image: url("./assests/jejuEColor.png");
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.location button:nth-child(2).selected {
+  background-image: url("./assests/jejuWColor.png");
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.with button {
+  background-size: 90%;
+}
+.with button.selected {
+  background-image: url("./assests/hallabong.png");
+}
+#result {
+  width: auto;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  border: none;
+  background: none;
+  font-family: "sunflowerM";
+  font-size: 1.6rem;
+  text-decoration: underline;
+  text-underline-offset: 0.6rem;
+}
